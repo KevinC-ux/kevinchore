@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palsworld - Premium Cosmetics & Beauty</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+           
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+
+            <div class="nav-logo">
+                <h2>Palsworld</h2>
+            </div>
+
+                <li><a href="#products-section">Products</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="nav-logo">
+                <h2>Palsworld</h2>
+            </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-subtitle">HOW IT WORKS</p>
+                    <h1>Enhance Your Natural Beauty</h1>
+                    <p class="hero-description">Connect with certified beauty experts, makeup artists, and skincare specialists to transform your beauty journey.</p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary">Find A Beauty Expert</button>
+                        <button class="btn-secondary">Get Started</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-illustration">
+                        <div class="beauty-icon">💄</div>
+                        <div class="sparkle">✨</div>
+                        <div class="heart">💖</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secondary Hero -->
+    <section class="secondary-hero">
+        <div class="container">
+            <div class="secondary-content">
+                <h2>We Help You Prioritize Your Beauty Goals</h2>
+                <p>Browse beauty experts, book a consultation, and start your transformation journey with trusted professionals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">SERVICES</p>
+                <h2>Your Path to Beauty Excellence</h2>
+                <p>Discover expert guidance for a more beautiful and confident you.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card large-card">
+                    <div class="service-icon"></div>
+                    <h3>Skincare Consultation</h3>
+                    <p>Personalized skincare routines and product recommendations from certified dermatologists and estheticians. Our wellness coaches support you in creating sustainable routines for mental, emotional, and physical well-being.</p>
+                    <button class="btn-outline">Learn More</button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"></div>
+                    <h3>Makeup Artistry</h3>
+                    <p>Professional makeup sessions and tutorials with certified makeup artists.</p>
+                    <button class="btn-outline">Learn More</button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"></div>
+                    <h3>Beauty Coaching</h3>
+                    <p>Comprehensive beauty guidance and confidence building sessions.</p>
+                    <button class="btn-outline">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="products-section">
+        <div class="section-header">
+            <h2>Our Premium Cosmetics</h2>
+            <p>Discover our high-quality beauty products</p>
+        </div>
+
+        <div class="filter-controls">
+            <button class="filter-btn active" data-filter="all">All Products</button>
+            <button class="filter-btn" data-filter="skincare">Skincare</button>
+            <button class="filter-btn" data-filter="makeup">Makeup</button>
+            <button class="filter-btn" data-filter="haircare">Haircare</button>
+        </div>
+
+        <div class="products-container">
+            <!-- Products will be loaded here by JavaScript -->
+        </div>
+
+        <div class="view-more">
+            <button id="load-more">View More Products</button>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">TESTIMONIALS</p>
+                <h2>What Our Beauty Enthusiasts Are Saying</h2>
+                <p>Positive experiences from clients who have transformed their beauty routine with our experts.</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <p>"Palsworld made it so easy to find the right beauty expert for me. The skincare consultation has truly transformed my skin, and I feel more confident than ever before!"</p>
+                    <div class="testimonial-author">
+                        <strong>- Emma R., 28</strong>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p>"I was struggling with my makeup routine, but the makeup artistry sessions at Palsworld have helped me find my perfect look. I finally feel confident in my beauty choices!"</p>
+                    <div class="testimonial-author">
+                        <strong>- Sarah M., 35</strong>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider-controls">
+                <button class="slider-btn prev">←</button>
+                <button class="slider-btn next">→</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="partners">
+        <div class="container">
+            <p>Our Partners</p>
+            <div class="partners-logos">
+                <span>Sephora</span>
+                <span>Ulta</span>
+                <span>MAC</span>
+                <span>Fenty</span>
+                <span>Glossier</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources -->
+    <section id="resources" class="resources">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">EXPLORE & LEARN</p>
+                <h2>Resources for Your Beauty Journey</h2>
+                <p>Explore expert insights, beauty guides, and tools to enhance your beauty routine.</p>
+            </div>
+            
+            <div class="resources-grid">
+                <div class="resource-card1">
+                    <div class="resource-icon"></div>
+                    <h3>Beauty Articles & Guides</h3>
+                    <p>Practical tips on skincare routines, makeup techniques, and beauty trends.</p>
+                    <button class="btn-outline">Explore</button>
+                </div>
+                
+                <div class="resource-card2">
+                    <div class="resource-icon"></div>
+                    <h3>Video Tutorials</h3>
+                    <p>Step-by-step makeup tutorials and skincare routine demonstrations.</p>
+                    <button class="btn-outline">Explore</button>
+                </div>
+                
+                <div class="resource-card3">
+                    <div class="resource-icon"></div>
+                    <h3>Beauty Workshops</h3>
+                    <p>Live and recorded sessions with beauty professionals and makeup artists.</p>
+                    <button class="btn-outline">Explore</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community -->
+    <section class="community">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">COMMUNITY</p>
+                <h2>You're Not Alone on This Beauty Journey</h2>
+                <p>Connect with other beauty enthusiasts, share experiences, and find inspiration in a supportive space.</p>
+            </div>
+            <button class="btn-primary">Join The Community</button>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">NEED HELP?</p>
+                <h2>Frequently Asked Questions</h2>
+                <p>Find answers to common questions about our services, products, and beauty consultations.</p>
+            </div>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How do I book a beauty consultation?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can book a consultation through our website by selecting your preferred beauty expert and choosing an available time slot.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Are virtual consultations available?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer both virtual and in-person consultations to accommodate your preferences and schedule.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What's the difference between skincare consultation and makeup artistry?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Skincare consultation focuses on your skin health and routine, while makeup artistry covers makeup techniques and application.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do I need a subscription to access services?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No subscription required! You can book individual consultations or purchase service packages based on your needs.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Can I switch beauty experts if I don't feel the right connection?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We want you to feel comfortable with your beauty expert. You can easily switch to another professional at any time.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Is my information and consultation history kept confidential?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, all your personal information and consultation details are kept strictly confidential and secure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="section-header">
+                        <p class="section-subtitle">GET IN TOUCH</p>
+                        <h2>We're Here to Support Your Beauty Journey</h2>
+                        <p>Whether you have questions, need help getting started, or want to learn more - reach out anytime.</p>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <p><strong>Email:</strong> support@palsworld.com</p>
+                        <p><strong>Phone:</strong> 0769907508</p>
+                        <p><strong>Address:</strong> Nairobi, Kenya</p>
+                        <p>We typically respond within 12 hours.</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Palsworld</h3>
+                    <p>Find Beauty, Support, Guidance, and Confidence.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#resources">Resources</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <ul>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">YouTube</a></li>
+                            <li><a href="#">TikTok</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <ul>
+                            <li><a href="#">Terms Of Use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>2025 Palsworld. All Rights Reserved.</p>
+                <button class="btn-primary">Find Beauty Support Now</button>
+            </div>
+        </div>
+    </footer>
+
+   
+       <script src="/js/script.js"></script>
+    
+</body>
+</html>
